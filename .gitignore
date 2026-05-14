@@ -1,0 +1,22 @@
+# Local/private files
+.env
+config.php
+*.local.php
+*.backup
+*.bak
+
+# Packages and generated deploy artifacts
+*.zip
+deploy/
+createc-hosting-ready/
+createc-hosting-ready.zip
+catalogo_rodeo-main.zip
+
+# Dependencies/caches
+node_modules/
+vendor/
+.cache/
+
+# OS/editor
+Thumbs.db
+.DS_Store

@@ -1,0 +1,45 @@
+{
+  "id": "/admin/",
+  "name": "RifaGrid Admin",
+  "short_name": "RG Admin",
+  "description": "Panel administrativo de GIBEL Rifas con alertas push.",
+  "start_url": "admin/login.php",
+  "display": "standalone",
+  "background_color": "#171018",
+  "theme_color": "#38aeea",
+  "orientation": "portrait-primary",
+  "scope": "./",
+  "categories": ["business", "productivity"],
+  "lang": "es-PA",
+  "icons": [
+    {
+      "src": "public/assets/admin-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "public/assets/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Dashboard",
+      "short_name": "Dashboard",
+      "url": "admin/dashboard.php"
+    },
+    {
+      "name": "Reservas",
+      "short_name": "Reservas",
+      "url": "admin/reservas.php"
+    },
+    {
+      "name": "Comprobantes",
+      "short_name": "Comprobantes",
+      "url": "admin/comprobantes.php"
+    }
+  ]
+}
